@@ -14,9 +14,11 @@
 
 .wrapper{
     width:100vw;
-    height:100vh;
+    /* height:100vh; */
+    min-height: 100vh;
     color: var(--colorLight2);
     background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);;
+    position: relative;
 }
 
 h1 {
@@ -152,7 +154,7 @@ h1 {
     display: flex;
     gap: 10px 20px;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 2rem;
 }
 
@@ -230,5 +232,10 @@ h1 {
 
 .alr_prashant{
     text-align: center;
+    /* position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%); */
+    
 
 }
